@@ -15,5 +15,20 @@ namespace _EDD_Practica1
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Registro enlace = new Registro();
+            enlace.ShowDialog();
+           
+            this.Dispose();
+            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -20,5 +20,13 @@ namespace _EDD_Practica1
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form1 enlace = new Form1();
+            enlace.ShowDialog();
+            this.Dispose();
+           
+        }
     }
 }

@@ -42,6 +42,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(99, 300);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(160, 20);
             this.textBox2.TabIndex = 16;
             // 
@@ -93,6 +94,7 @@
             this.linkLabel1.TabIndex = 19;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "<-- Regresar";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // button1
             // 
