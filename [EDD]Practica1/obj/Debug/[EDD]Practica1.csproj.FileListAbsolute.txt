@@ -7,4 +7,7 @@ C:\Users\walteregv95\Documents\Visual Studio 2012\Projects\[EDD]Practica1\[EDD]P
 C:\Users\walteregv95\Documents\Visual Studio 2012\Projects\[EDD]Practica1\[EDD]Practica1\obj\Debug\[EDD]Practica1.pdb
 C:\Users\walteregv95\Documents\Visual Studio 2012\Projects\[EDD]Practica1\[EDD]Practica1\obj\Debug\[EDD]Practica1.csprojResolveAssemblyReference.cache
 C:\Users\walteregv95\Documents\Visual Studio 2012\Projects\[EDD]Practica1\[EDD]Practica1\obj\Debug\_EDD_Practica1.Registro.resources
+C:\Users\walteregv95\Documents\Visual Studio 2012\Projects\[EDD]Practica1\[EDD]Practica1\obj\Debug\_EDD_Practica1.Operar.resources
+C:\Users\walteregv95\Documents\Visual Studio 2012\Projects\[EDD]Practica1\[EDD]Practica1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\walteregv95\Documents\Visual Studio 2012\Projects\[EDD]Practica1\[EDD]Practica1\bin\Debug\Newtonsoft.Json.xml
 C:\Users\walteregv95\Documents\Visual Studio 2012\Projects\[EDD]Practica1\[EDD]Practica1\obj\Debug\_EDD_Practica1.prueba.resources

@@ -11,6 +11,9 @@ namespace _EDD_Practica1
 {
     public partial class Registro : Form
     {
+         public static CircularDoble usuarios = new CircularDoble();
+        
+        
         public Registro()
         {
             InitializeComponent();
@@ -24,9 +27,18 @@ namespace _EDD_Practica1
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Form1 enlace = new Form1();
+            
             enlace.ShowDialog();
-            this.Dispose();
+            this.Close();
            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        { 
+            Pilas pila = new Pilas();
+            Colas cola = new Colas();
+            Usuarios nuevoUser = new Usuarios(txtUsuario.Text, txtContraseña.Text, cola, pila);
+            usuarios.Insertar(nuevoUser);
         }
     }
 }
